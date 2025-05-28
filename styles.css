@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+.star-list {
+    list-style: none;
+    padding: 0;
+}
+
+.star-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.star-list li::before {
+    content: "★";
+    color: #ff0000; /* Red in hex */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
